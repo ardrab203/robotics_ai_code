@@ -1,0 +1,60 @@
+[0.009s] Invoking command in '/home/ardra/ros2_tut/build/qos_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/ros2_tut/src/qos_demo -DCMAKE_INSTALL_PREFIX=/home/ardra/ros2_tut/install/qos_demo
+[0.111s] -- The C compiler identification is GNU 13.3.0
+[0.180s] -- The CXX compiler identification is GNU 13.3.0
+[0.193s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.265s] -- Detecting C compile features
+[0.265s] -- Detecting C compile features - done
+[0.272s] -- Detecting CXX compiler ABI info
+[0.337s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.343s] -- Detecting CXX compile features
+[0.343s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.552s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.596s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.611s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.646s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.716s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.719s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.787s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.801s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.819s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.890s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.966s] -- Configuring done (0.9s)
+[0.974s] -- Generating done (0.0s)
+[0.977s] -- Build files have been written to: /home/ardra/ros2_tut/build/qos_demo
+[0.985s] Invoked command in '/home/ardra/ros2_tut/build/qos_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/ros2_tut/src/qos_demo -DCMAKE_INSTALL_PREFIX=/home/ardra/ros2_tut/install/qos_demo
+[0.986s] Invoking command in '/home/ardra/ros2_tut/build/qos_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/ros2_tut/build/qos_demo -- -j16 -l16
+[1.029s] [ 25%] [32mBuilding CXX object CMakeFiles/qos_subscriber.dir/src/qos_subscriber.cpp.o[0m
+[1.030s] [ 50%] [32mBuilding CXX object CMakeFiles/qos_publisher.dir/src/qos_publisher.cpp.o[0m
+[4.188s] [ 75%] [32m[1mLinking CXX executable qos_publisher[0m
+[4.328s] [ 75%] Built target qos_publisher
+[6.356s] [100%] [32m[1mLinking CXX executable qos_subscriber[0m
+[6.520s] [100%] Built target qos_subscriber
+[6.527s] Invoked command in '/home/ardra/ros2_tut/build/qos_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/ros2_tut/build/qos_demo -- -j16 -l16
+[6.533s] Invoking command in '/home/ardra/ros2_tut/build/qos_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/ros2_tut/build/qos_demo
+[6.539s] -- Install configuration: ""
+[6.539s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/lib/qos_demo/qos_publisher
+[6.540s] -- Set non-toolchain portion of runtime path of "/home/ardra/ros2_tut/install/qos_demo/lib/qos_demo/qos_publisher" to ""
+[6.540s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/lib/qos_demo/qos_subscriber
+[6.542s] -- Set non-toolchain portion of runtime path of "/home/ardra/ros2_tut/install/qos_demo/lib/qos_demo/qos_subscriber" to ""
+[6.542s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/ament_index/resource_index/package_run_dependencies/qos_demo
+[6.542s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/ament_index/resource_index/parent_prefix_path/qos_demo
+[6.542s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/environment/ament_prefix_path.sh
+[6.542s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/environment/ament_prefix_path.dsv
+[6.542s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/environment/path.sh
+[6.542s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/environment/path.dsv
+[6.542s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/local_setup.bash
+[6.543s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/local_setup.sh
+[6.543s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/local_setup.zsh
+[6.543s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/local_setup.dsv
+[6.543s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/package.dsv
+[6.543s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/ament_index/resource_index/packages/qos_demo
+[6.543s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/cmake/qos_demoConfig.cmake
+[6.543s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/cmake/qos_demoConfig-version.cmake
+[6.543s] -- Installing: /home/ardra/ros2_tut/install/qos_demo/share/qos_demo/package.xml
+[6.544s] Invoked command in '/home/ardra/ros2_tut/build/qos_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/ros2_tut/build/qos_demo

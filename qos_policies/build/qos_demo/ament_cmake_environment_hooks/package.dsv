@@ -1,0 +1,4 @@
+source;share/qos_demo/local_setup.bash
+source;share/qos_demo/local_setup.dsv
+source;share/qos_demo/local_setup.sh
+source;share/qos_demo/local_setup.zsh
