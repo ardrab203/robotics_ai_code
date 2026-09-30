@@ -1,0 +1,29 @@
+name: Hello Actions
+
+on: push
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "Hello from GitHub Actions!"
+
+      - name: Show runner details
+        run: |
+          echo "Runner OS:   $RUNNER_OS"
+          echo "Repository:  $GITHUB_REPOSITORY"
+          echo "Triggered by: $GITHUB_EVENT_NAME"
+          echo "Branch/ref:  $GITHUB_REF"
+          echo "Commit SHA:  $GITHUB_SHA"
+
+      - name: Check compiler versions (already on the runner)
+        run: |
+          g++ --version
+          cmake --version
+
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: 'List files (notice: empty!)'
+        run: ls -la
